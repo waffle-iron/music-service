@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		29D847A0889D8E06DD8CE239 /* Pods_ApplicationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAEF1DF44781AD03BC7E6F0 /* Pods_ApplicationUITests.framework */; };
 		54E29131686134C1E9CD5044 /* Pods_Application.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB85312369B31C04E92890EE /* Pods_Application.framework */; };
+		6F81427F1D0EDA340041DC0D /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F81427D1D0EDA340041DC0D /* Media.xcassets */; };
 		6FD74FB31D0EAA5E00ACB9AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD74FB21D0EAA5E00ACB9AA /* AppDelegate.swift */; };
 		6FD74FBA1D0EAA5E00ACB9AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FD74FB81D0EAA5E00ACB9AA /* Main.storyboard */; };
 		6FD74FBC1D0EAA5E00ACB9AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD74FBB1D0EAA5E00ACB9AA /* Assets.xcassets */; };
@@ -18,8 +19,6 @@
 		6FD74FE71D0EAC5100ACB9AA /* LMWaterfall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD74FE61D0EAC5100ACB9AA /* LMWaterfall.swift */; };
 		6FD74FEA1D0EC95800ACB9AA /* LMOnePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD74FE81D0EC95800ACB9AA /* LMOnePlayer.swift */; };
 		6FD74FEB1D0EC95800ACB9AA /* LMOnePlayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FD74FE91D0EC95800ACB9AA /* LMOnePlayer.xib */; };
-		6FD74FEE1D0ECA5700ACB9AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD74FEC1D0ECA5700ACB9AA /* Assets.xcassets */; };
-		6FD74FEF1D0ECA5700ACB9AA /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD74FED1D0ECA5700ACB9AA /* Media.xcassets */; };
 		6FD74FF11D0ED03A00ACB9AA /* LMCommingCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD74FF01D0ED03A00ACB9AA /* LMCommingCloud.swift */; };
 		DA9183F1B14AFD1A1C7B384D /* Pods_ApplicationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC068499484D348BF82FC4D1 /* Pods_ApplicationTests.framework */; };
 /* End PBXBuildFile section */
@@ -43,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		1037A64E8AC42064BACAC40A /* Pods-Application.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Application.release.xcconfig"; path = "Pods/Target Support Files/Pods-Application/Pods-Application.release.xcconfig"; sourceTree = "<group>"; };
+		6F81427D1D0EDA340041DC0D /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		6FD74FAF1D0EAA5E00ACB9AA /* Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Application.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FD74FB21D0EAA5E00ACB9AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FD74FB91D0EAA5E00ACB9AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,8 +58,6 @@
 		6FD74FE61D0EAC5100ACB9AA /* LMWaterfall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMWaterfall.swift; path = Application/LMWaterfall.swift; sourceTree = "<group>"; };
 		6FD74FE81D0EC95800ACB9AA /* LMOnePlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMOnePlayer.swift; path = Application/LMOnePlayer.swift; sourceTree = "<group>"; };
 		6FD74FE91D0EC95800ACB9AA /* LMOnePlayer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LMOnePlayer.xib; path = Application/LMOnePlayer.xib; sourceTree = "<group>"; };
-		6FD74FEC1D0ECA5700ACB9AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6FD74FED1D0ECA5700ACB9AA /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		6FD74FF01D0ED03A00ACB9AA /* LMCommingCloud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMCommingCloud.swift; path = Application/LMCommingCloud.swift; sourceTree = "<group>"; };
 		AAAEF1DF44781AD03BC7E6F0 /* Pods_ApplicationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApplicationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB85312369B31C04E92890EE /* Pods_Application.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Application.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +123,7 @@
 		6FD74FB11D0EAA5E00ACB9AA /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				6F81427D1D0EDA340041DC0D /* Media.xcassets */,
 				6FD74FB21D0EAA5E00ACB9AA /* AppDelegate.swift */,
 				6FD74FB81D0EAA5E00ACB9AA /* Main.storyboard */,
 				6FD74FBB1D0EAA5E00ACB9AA /* Assets.xcassets */,
@@ -155,8 +154,6 @@
 		6FD74FE21D0EAC0800ACB9AA /* Environment Source */ = {
 			isa = PBXGroup;
 			children = (
-				6FD74FEC1D0ECA5700ACB9AA /* Assets.xcassets */,
-				6FD74FED1D0ECA5700ACB9AA /* Media.xcassets */,
 				6FD74FE51D0EAC2400ACB9AA /* VK */,
 				6FD74FE41D0EAC1E00ACB9AA /* Waterfall */,
 				6FD74FE31D0EAC1500ACB9AA /* Personal Cloud */,
@@ -329,8 +326,7 @@
 				6FD74FBF1D0EAA5E00ACB9AA /* LaunchScreen.storyboard in Resources */,
 				6FD74FBC1D0EAA5E00ACB9AA /* Assets.xcassets in Resources */,
 				6FD74FBA1D0EAA5E00ACB9AA /* Main.storyboard in Resources */,
-				6FD74FEF1D0ECA5700ACB9AA /* Media.xcassets in Resources */,
-				6FD74FEE1D0ECA5700ACB9AA /* Assets.xcassets in Resources */,
+				6F81427F1D0EDA340041DC0D /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
