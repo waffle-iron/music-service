@@ -9,8 +9,5 @@
 import UIKit
 
 class LMConstant: NSObject {
-
-    var broadcastURL = String!()
-    var broadcastMeta = String!()
     
 }
