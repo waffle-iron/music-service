@@ -9,9 +9,10 @@
 /* Begin PBXBuildFile section */
 		29D847A0889D8E06DD8CE239 /* Pods_ApplicationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAEF1DF44781AD03BC7E6F0 /* Pods_ApplicationUITests.framework */; };
 		54E29131686134C1E9CD5044 /* Pods_Application.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB85312369B31C04E92890EE /* Pods_Application.framework */; };
+		6F6CD2541D121413002FCCAF /* LMConnectLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6CD2531D121413002FCCAF /* LMConnectLive.swift */; };
+		6F6CD2561D1216F6002FCCAF /* LMSocialSharing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6CD2551D1216F6002FCCAF /* LMSocialSharing.swift */; };
 		6F81427F1D0EDA340041DC0D /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F81427D1D0EDA340041DC0D /* Media.xcassets */; };
 		6F8457D81D101FD2004B8E93 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8457D71D101FD2004B8E93 /* AudioToolbox.framework */; };
-		6F916B871D0F49FD0054A877 /* LMConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F916B861D0F49FD0054A877 /* LMConstant.swift */; };
 		6F916B921D0F4C060054A877 /* LMForgotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F916B901D0F4C060054A877 /* LMForgotView.swift */; };
 		6F916B931D0F4C060054A877 /* LMForgotView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F916B911D0F4C060054A877 /* LMForgotView.xib */; };
 		6F916B961D0F4C210054A877 /* LMRegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F916B941D0F4C210054A877 /* LMRegistrationView.swift */; };
@@ -50,10 +51,11 @@
 
 /* Begin PBXFileReference section */
 		1037A64E8AC42064BACAC40A /* Pods-Application.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Application.release.xcconfig"; path = "Pods/Target Support Files/Pods-Application/Pods-Application.release.xcconfig"; sourceTree = "<group>"; };
+		6F6CD2531D121413002FCCAF /* LMConnectLive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMConnectLive.swift; path = Application/LMConnectLive.swift; sourceTree = "<group>"; };
+		6F6CD2551D1216F6002FCCAF /* LMSocialSharing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMSocialSharing.swift; path = Application/LMSocialSharing.swift; sourceTree = "<group>"; };
 		6F81427D1D0EDA340041DC0D /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		6F8457D61D101FC8004B8E93 /* Application.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Application.entitlements; sourceTree = "<group>"; };
 		6F8457D71D101FD2004B8E93 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		6F916B861D0F49FD0054A877 /* LMConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMConstant.swift; path = Application/LMConstant.swift; sourceTree = "<group>"; };
 		6F916B901D0F4C060054A877 /* LMForgotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMForgotView.swift; sourceTree = "<group>"; };
 		6F916B911D0F4C060054A877 /* LMForgotView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMForgotView.xib; sourceTree = "<group>"; };
 		6F916B941D0F4C210054A877 /* LMRegistrationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMRegistrationView.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 		6F916B841D0F48D40054A877 /* Connect Service */ = {
 			isa = PBXGroup;
 			children = (
+				6F6CD2531D121413002FCCAF /* LMConnectLive.swift */,
 			);
 			name = "Connect Service";
 			sourceTree = "<group>";
@@ -225,10 +228,11 @@
 		6FD74FE21D0EAC0800ACB9AA /* Environment Source */ = {
 			isa = PBXGroup;
 			children = (
-				6FD74FE51D0EAC2400ACB9AA /* Cloud Music Providers */,
-				6FD74FE41D0EAC1E00ACB9AA /* Waterfall Club */,
+				6FD74FE51D0EAC2400ACB9AA /* Cloud Music Providers [DEV] */,
+				6FD74FE41D0EAC1E00ACB9AA /* Waterfall Club [DEV] */,
 				6FD74FE31D0EAC1500ACB9AA /* Personal Cloud */,
 				6F916B841D0F48D40054A877 /* Connect Service */,
+				6F6CD2551D1216F6002FCCAF /* LMSocialSharing.swift */,
 			);
 			name = "Environment Source";
 			sourceTree = "<group>";
@@ -241,23 +245,22 @@
 			name = "Personal Cloud";
 			sourceTree = "<group>";
 		};
-		6FD74FE41D0EAC1E00ACB9AA /* Waterfall Club */ = {
+		6FD74FE41D0EAC1E00ACB9AA /* Waterfall Club [DEV] */ = {
 			isa = PBXGroup;
 			children = (
 				6FD74FE61D0EAC5100ACB9AA /* LMWaterfall.swift */,
 				6FD74FE81D0EC95800ACB9AA /* LMOnePlayer.swift */,
 				6FD74FE91D0EC95800ACB9AA /* LMOnePlayer.xib */,
-				6F916B861D0F49FD0054A877 /* LMConstant.swift */,
 			);
-			name = "Waterfall Club";
+			name = "Waterfall Club [DEV]";
 			sourceTree = "<group>";
 		};
-		6FD74FE51D0EAC2400ACB9AA /* Cloud Music Providers */ = {
+		6FD74FE51D0EAC2400ACB9AA /* Cloud Music Providers [DEV] */ = {
 			isa = PBXGroup;
 			children = (
 				6F916B851D0F49820054A877 /* Music Player */,
 			);
-			name = "Cloud Music Providers";
+			name = "Cloud Music Providers [DEV]";
 			sourceTree = "<group>";
 		};
 		9DAD32054145FBF5B3474276 /* Frameworks */ = {
@@ -565,14 +568,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F6CD2561D1216F6002FCCAF /* LMSocialSharing.swift in Sources */,
 				6FD74FB31D0EAA5E00ACB9AA /* AppDelegate.swift in Sources */,
+				6F6CD2541D121413002FCCAF /* LMConnectLive.swift in Sources */,
 				6F916B9A1D0F4C360054A877 /* LMAuthView.swift in Sources */,
 				6F916B961D0F4C210054A877 /* LMRegistrationView.swift in Sources */,
 				6FD74FF11D0ED03A00ACB9AA /* LMCommingCloud.swift in Sources */,
 				6FD74FEA1D0EC95800ACB9AA /* LMOnePlayer.swift in Sources */,
 				6F916B921D0F4C060054A877 /* LMForgotView.swift in Sources */,
 				6FD74FE71D0EAC5100ACB9AA /* LMWaterfall.swift in Sources */,
-				6F916B871D0F49FD0054A877 /* LMConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
