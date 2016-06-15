@@ -20,6 +20,9 @@ class LMOnePlayer: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
+    @IBAction func hideView(sender: UIButton) {
+        self.view.viewWithTag(1)?.hidden = true
+    }
     
 
 }
