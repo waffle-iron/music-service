@@ -12,15 +12,11 @@ class LMCommingCloud: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-    
 
     @IBAction func showAlert(sender: UIButton) {
         let alertController = UIAlertController(title: "Lerigos Music", message: "You successful subscibed on notifications with weekly news from Lerigos Music community. After few months we gift for all subscribers 1 year of premium membership!", preferredStyle: .Alert)

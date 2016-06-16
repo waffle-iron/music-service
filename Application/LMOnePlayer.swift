@@ -7,10 +7,14 @@
 //
 
 import UIKit
+import Bolts
+import Parse
+
+import Social
 
 class LMOnePlayer: UIViewController {
     
-    
+    @IBOutlet weak var stationArtwork : UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,10 +23,23 @@ class LMOnePlayer: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    
-    @IBAction func hideView(sender: UIButton) {
-        self.view.viewWithTag(1)?.hidden = true
+
+    // MARK: - Backend functionality for mobile application
+
+    @IBAction func likeMusicStation(sender: UIButton) {
+        
     }
     
+    @IBAction func playingBroadcastStatus(sender: UIButton) {
+        
+    }
+    
+    @IBAction func shareMusicStation(sender: UIButton) {
+        let twitterView = SLComposeViewController(forServiceType: SLServiceTypeTwitter)
+        twitterView.setInitialText("SIISISISIs")
+        twitterView.addImage(stationArtwork.image!)
+        twitterView.addURL(NSURL(string: "https://music.lerigos.co"))
+        self.presentViewController(twitterView, animated: true, completion: nil)
+    }
 
 }
