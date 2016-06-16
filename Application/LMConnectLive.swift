@@ -14,6 +14,7 @@ class LMConnectLive: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.checkUserAuthentification()
     }
 
     override func didReceiveMemoryWarning() {

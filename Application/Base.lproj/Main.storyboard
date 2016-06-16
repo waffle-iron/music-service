@@ -158,10 +158,10 @@
                                     <constraint firstAttribute="height" constant="64" id="8Q1-7F-XOc"/>
                                 </constraints>
                                 <textAttributes key="titleTextAttributes">
-                                    <color key="textColor" red="0.9882352941176471" green="0.23921568627450981" blue="0.61176470588235299" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="textColor" red="1" green="0.53883642890000005" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </textAttributes>
                                 <items>
-                                    <navigationItem title="Waterfall by One:1" id="qeZ-7W-RNb"/>
+                                    <navigationItem title="Lerigos Waterfall" id="qeZ-7W-RNb"/>
                                 </items>
                             </navigationBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="C1S-wS-hCt">
@@ -175,18 +175,18 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eMw-6b-fUY" id="EtF-nv-oOb">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="k0v-W8-KgU">
-                                                    <rect key="frame" x="15" y="6" width="31.5" height="19.5"/>
+                                                    <rect key="frame" x="15" y="5" width="32" height="20"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cse-Oa-fXH">
-                                                    <rect key="frame" x="15" y="25.5" width="40.5" height="13.5"/>
+                                                    <rect key="frame" x="15" y="25" width="41" height="14"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -197,7 +197,7 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ocZ-n6-qsb" customClass="TPKeyboardAvoidingScrollView">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ocZ-n6-qsb" customClass="TPKeyboardAvoidingScrollView">
                                 <rect key="frame" x="0.0" y="64" width="776" height="145"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="partnerCapitalFM" translatesAutoresizingMaskIntoConstraints="NO" id="bTf-s0-Q4I">
@@ -408,10 +408,10 @@
                                     <constraint firstItem="Mvs-7f-ue1" firstAttribute="leading" secondItem="Sk7-jA-K5f" secondAttribute="trailing" constant="8" symbolic="YES" id="yZx-12-nZ6"/>
                                 </constraints>
                             </scrollView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Most Popular Radio Stations" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P0M-rm-rkc">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Most Popular Radio Stations" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P0M-rm-rkc">
                                 <rect key="frame" x="20" y="217" width="335" height="20"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                <color key="textColor" red="0.98823529409999999" green="0.23921568630000001" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="0.53883642890000005" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -438,6 +438,52 @@
             </objects>
             <point key="canvasLocation" x="1238.5" y="-0.5"/>
         </scene>
+        <!--Item-->
+        <scene sceneID="6IY-Bo-LCQ">
+            <objects>
+                <viewController id="FBm-Y1-ZfX" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="t4r-3A-b0y"/>
+                        <viewControllerLayoutGuide type="bottom" id="ymG-KT-YFp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3Vk-gv-N9g">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tcu-ih-Oxb">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="dgi-nm-Wfg"/>
+                                </constraints>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="1" green="0.53883642890000005" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Lerigos Connect" id="Qfn-CU-nsR"/>
+                                </items>
+                            </navigationBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8Ve-PJ-SKI">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8Ve-PJ-SKI" firstAttribute="bottom" secondItem="ymG-KT-YFp" secondAttribute="top" id="2E8-B1-vya"/>
+                            <constraint firstItem="Tcu-ih-Oxb" firstAttribute="top" secondItem="3Vk-gv-N9g" secondAttribute="top" id="4at-2Z-WL1"/>
+                            <constraint firstItem="Tcu-ih-Oxb" firstAttribute="leading" secondItem="8Ve-PJ-SKI" secondAttribute="leading" id="eif-GE-LR1"/>
+                            <constraint firstItem="Tcu-ih-Oxb" firstAttribute="leading" secondItem="3Vk-gv-N9g" secondAttribute="leading" id="hpp-LO-yyP"/>
+                            <constraint firstItem="8Ve-PJ-SKI" firstAttribute="top" secondItem="Tcu-ih-Oxb" secondAttribute="bottom" id="mkq-TN-nqa"/>
+                            <constraint firstAttribute="trailing" secondItem="Tcu-ih-Oxb" secondAttribute="trailing" id="oPT-Nd-Rbu"/>
+                            <constraint firstItem="Tcu-ih-Oxb" firstAttribute="trailing" secondItem="8Ve-PJ-SKI" secondAttribute="trailing" id="zPC-oj-E4Y"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="Mi6-5I-Dqn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S19-u9-A70" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1653.5" y="-0.5"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
@@ -453,6 +499,7 @@
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="cjS-87-tnE" kind="relationship" relationship="viewControllers" id="voS-qb-unJ"/>
+                        <segue destination="FBm-Y1-ZfX" kind="relationship" relationship="viewControllers" id="yct-Hj-b14"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
