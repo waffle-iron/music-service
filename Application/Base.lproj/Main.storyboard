@@ -7,10 +7,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--First-->
+        <!--Urban Cloud-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="urbanLive" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9pv-A4-QxB" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
@@ -51,16 +51,16 @@
                             <constraint firstItem="L79-fz-8VW" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" id="joP-43-n2c"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Urban Cloud" image="first" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="414.5" y="-0.5"/>
         </scene>
-        <!--Second-->
+        <!--Lerigos Cloud-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController id="8rJ-Kc-sve" customClass="LMCommingCloud" customModule="Application" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="cloudLive" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8rJ-Kc-sve" customClass="LMCommingCloud" customModule="Application" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
@@ -134,16 +134,16 @@
                             <constraint firstItem="4bH-n2-vGl" firstAttribute="leading" secondItem="s09-ph-aq3" secondAttribute="leading" id="wZy-Ik-vmW"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Lerigos Cloud" image="second" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="822.5" y="-0.5"/>
         </scene>
-        <!--Item-->
+        <!--Waterfall-->
         <scene sceneID="yoV-yj-8tb">
             <objects>
-                <viewController id="cjS-87-tnE" customClass="LMWaterfall" customModule="Application" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="waterfallLive" useStoryboardIdentifierAsRestorationIdentifier="YES" id="cjS-87-tnE" customClass="LMWaterfall" customModule="Application" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="l17-Jm-izA"/>
                         <viewControllerLayoutGuide type="bottom" id="Z90-q5-aga"/>
@@ -194,6 +194,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" searchField="YES"/>
+                                        </accessibility>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -432,16 +435,16 @@
                             <constraint firstItem="P0M-rm-rkc" firstAttribute="leading" secondItem="jmU-e0-K6c" secondAttribute="leadingMargin" constant="4" id="vcN-Ng-nkw"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="pUU-5I-vLD"/>
+                    <tabBarItem key="tabBarItem" title="Waterfall" id="pUU-5I-vLD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="giw-re-brm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1238.5" y="-0.5"/>
         </scene>
-        <!--Item-->
+        <!--Connect-->
         <scene sceneID="6IY-Bo-LCQ">
             <objects>
-                <viewController id="FBm-Y1-ZfX" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="connectLive" useStoryboardIdentifierAsRestorationIdentifier="YES" id="FBm-Y1-ZfX" customClass="LMConnectLive" customModule="Application" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="t4r-3A-b0y"/>
                         <viewControllerLayoutGuide type="bottom" id="ymG-KT-YFp"/>
@@ -478,7 +481,7 @@
                             <constraint firstItem="Tcu-ih-Oxb" firstAttribute="trailing" secondItem="8Ve-PJ-SKI" secondAttribute="trailing" id="zPC-oj-E4Y"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="Mi6-5I-Dqn"/>
+                    <tabBarItem key="tabBarItem" title="Connect" id="Mi6-5I-Dqn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S19-u9-A70" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

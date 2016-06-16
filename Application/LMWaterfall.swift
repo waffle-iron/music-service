@@ -14,7 +14,7 @@ class LMWaterfall: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.getWaterfallPlaylist()
+        //self.getWaterfallPlaylist()
     }
 
     override func didReceiveMemoryWarning() {
