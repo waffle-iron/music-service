@@ -9,6 +9,10 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LMOnePlayer" customModule="Application" customModuleProvider="target">
             <connections>
+                <outlet property="stationArtwork" destination="0VE-KS-b0U" id="OZ0-Ll-SS3"/>
+                <outlet property="stationLikes" destination="skw-kK-7cR" id="y6f-19-H1E"/>
+                <outlet property="stationMeta" destination="wS2-cS-JzV" id="LcR-HU-xgs"/>
+                <outlet property="stationName" destination="zr5-r7-GqL" id="lwY-cn-sSn"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -51,7 +55,7 @@
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
-                        <action selector="likeMusicStation:" destination="-1" eventType="touchUpInside" id="iRF-Rt-DKd"/>
+                        <action selector="increaseCustomerLike:" destination="-1" eventType="touchUpInside" id="gwG-Uj-1sv"/>
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Share" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DoL-rl-KSg">

@@ -12,7 +12,6 @@
 		6F6CD2541D121413002FCCAF /* LMConnectLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6CD2531D121413002FCCAF /* LMConnectLive.swift */; };
 		6F6CD2561D1216F6002FCCAF /* LMSocialSharing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6CD2551D1216F6002FCCAF /* LMSocialSharing.swift */; };
 		6F81427F1D0EDA340041DC0D /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F81427D1D0EDA340041DC0D /* Media.xcassets */; };
-		6F8457D81D101FD2004B8E93 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8457D71D101FD2004B8E93 /* AudioToolbox.framework */; };
 		6F916B921D0F4C060054A877 /* LMForgotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F916B901D0F4C060054A877 /* LMForgotView.swift */; };
 		6F916B931D0F4C060054A877 /* LMForgotView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F916B911D0F4C060054A877 /* LMForgotView.xib */; };
 		6F916B961D0F4C210054A877 /* LMRegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F916B941D0F4C210054A877 /* LMRegistrationView.swift */; };
@@ -57,7 +56,6 @@
 		6F6CD2551D1216F6002FCCAF /* LMSocialSharing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMSocialSharing.swift; path = Application/LMSocialSharing.swift; sourceTree = "<group>"; };
 		6F81427D1D0EDA340041DC0D /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		6F8457D61D101FC8004B8E93 /* Application.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Application.entitlements; sourceTree = "<group>"; };
-		6F8457D71D101FD2004B8E93 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		6F916B901D0F4C060054A877 /* LMForgotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMForgotView.swift; sourceTree = "<group>"; };
 		6F916B911D0F4C060054A877 /* LMForgotView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMForgotView.xib; sourceTree = "<group>"; };
 		6F916B941D0F4C210054A877 /* LMRegistrationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMRegistrationView.swift; sourceTree = "<group>"; };
@@ -98,7 +96,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				54E29131686134C1E9CD5044 /* Pods_Application.framework in Frameworks */,
-				6F8457D81D101FD2004B8E93 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +269,6 @@
 		9DAD32054145FBF5B3474276 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6F8457D71D101FD2004B8E93 /* AudioToolbox.framework */,
 				AB85312369B31C04E92890EE /* Pods_Application.framework */,
 				EC068499484D348BF82FC4D1 /* Pods_ApplicationTests.framework */,
 				AAAEF1DF44781AD03BC7E6F0 /* Pods_ApplicationUITests.framework */,
@@ -377,10 +373,10 @@
 								enabled = 1;
 							};
 							com.apple.InterAppAudio = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.Push = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
