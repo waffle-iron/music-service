@@ -11,6 +11,7 @@ target 'Application' do
   pod ‘Parse’
   pod 'SwiftHTTP'
   pod 'VK-ios-sdk'
+  pod 'SwiftyVK', :git => 'https://github.com/WE-St0r/SwiftyVK.git'
   pod 'JSMessagesViewController'
   pod 'Firebase'
   pod 'SwiftQRCode'

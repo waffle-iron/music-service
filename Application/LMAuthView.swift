@@ -31,11 +31,11 @@ class LMAuthView: UIViewController {
             } else {
                 let alertController = UIAlertController(title: "Invalid Credentials", message: "Opps. Your password or username is incorrect. Please try again or use method bellow. Thank you!", preferredStyle: .Alert)
                 
-                let firstAction = UIAlertAction(title: "Okay", style: .Default) { (action) in
+                let firstAction = UIAlertAction(title: "Close", style: .Default) { (action) in
                 }
                 alertController.addAction(firstAction)
                 
-                let secondAction = UIAlertAction(title: "Recover", style: .Default) { (action) in
+                let secondAction = UIAlertAction(title: "Restore", style: .Default) { (action) in
                     let credentialsRecoveryController = LMForgotView()
                     self.presentViewController(credentialsRecoveryController, animated: true, completion: nil)
                 }

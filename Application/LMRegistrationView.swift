@@ -30,7 +30,8 @@ class LMRegistrationView: UIViewController {
         customers.username = self.username.text
         customers.password = self.password.text
         customers.email = self.username.text
-        customers["phone"] = "415-392-0202"
+        customers["firstName"] = self.firstName.text
+        customers["lastName"] = self.lastName.text
         
         customers.signUpInBackgroundWithBlock {
             (succeeded: Bool, error: NSError?) -> Void in
