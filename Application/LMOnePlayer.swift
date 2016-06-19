@@ -33,7 +33,6 @@ class LMOnePlayer: UIViewController {
         
         stationName.text = broadcastingStation
         stationMeta.text = broadcastingMetaInfo
-        stationArtwork?.image = UIImage(named: broadcastingArtworkImage);
         
         self.thirdPartyModules()
         self.broadcastMediaInformation()

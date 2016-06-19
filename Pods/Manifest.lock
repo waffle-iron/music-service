@@ -29,6 +29,7 @@ PODS:
   - PhoneNumberKit (0.8.4)
   - SwiftHTTP (1.0.5)
   - SwiftQRCode (2.0.2)
+  - SwiftyVK (1.2.1)
   - TPKeyboardAvoiding (1.3)
   - VK-ios-sdk (1.3.17)
 
@@ -41,8 +42,18 @@ DEPENDENCIES:
   - PhoneNumberKit
   - SwiftHTTP
   - SwiftQRCode
+  - SwiftyVK (from `https://github.com/WE-St0r/SwiftyVK.git`)
   - TPKeyboardAvoiding
   - VK-ios-sdk
+
+EXTERNAL SOURCES:
+  SwiftyVK:
+    :git: https://github.com/WE-St0r/SwiftyVK.git
+
+CHECKOUT OPTIONS:
+  SwiftyVK:
+    :commit: e5073fa37ca186c4eb49c1769dae11fd37897275
+    :git: https://github.com/WE-St0r/SwiftyVK.git
 
 SPEC CHECKSUMS:
   Bolts: a0058fa3b331c5a1e4402d534f2dae36dbff31e4
@@ -60,9 +71,10 @@ SPEC CHECKSUMS:
   PhoneNumberKit: ec93d8c5e4614ecfc1ef333eb89f7eaadedcaa17
   SwiftHTTP: edb45e72f27d1d95d328d2b2c16a61aa94f1e9f7
   SwiftQRCode: 68e920781686e376d70646b90c8ad87fd6523309
+  SwiftyVK: ea30729504d37356ec118dd8a00fede2adf4a1f7
   TPKeyboardAvoiding: a5138f318c06fb3e151f886e18ce4a72695d9cbe
   VK-ios-sdk: 671b7bc84596da7040544eb848b3c71787906fbd
 
-PODFILE CHECKSUM: e732f62de295c63c565c604f06a2986849b7ac13
+PODFILE CHECKSUM: 922983f8e8c0c818c6e4419c46e45221b0e056fa
 
 COCOAPODS: 1.0.1
